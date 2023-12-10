@@ -22,7 +22,23 @@ The application is hosted on Vercel. Please find the link to it below.
 https://sql-editor-iota.vercel.app/
 
 # Features
+**Conditional RUN Button:** Activates only when a query is entered in the editor.
 
+**Different components:** Separate spaces for tables, editor, navigation bar and output.
+
+**Full Responsiveness:** Adapts seamlessly to all devices.
+
+**Predefined Queries:** Allows easy toggling between preset queries.
+
+**Custom Query Input:** Enables users to write their queries.
+
+**Predefined Tables:** Includes a set of predefined tables.
+
+**Hover Effects:** Tables change color when hovered over for better interaction.
+
+# Idea
+
+The inspiration for creating this SQL editor stemmed from my preparation for placements. During that time, I encountered various online code editors and compilers that had predefined values. The need to run queries based on those values sparked the idea to design this SQL editor frontend task.
 
 # Predefine queries
 SELECT * from customers;
@@ -32,6 +48,9 @@ SELECT * from sales;
 SELECT * from students;
 
 # Tech stack
+**ReactJS**
+
+**Tailwind CSS**
 
 # Page load time
 I used Lighthouse Chrome DevTools to check application performace.
