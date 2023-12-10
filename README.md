@@ -1,4 +1,7 @@
 # SQL Editor
+**Overview:** Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.
+
+# Description
 
 <img width="1462" alt="Screenshot 2023-12-10 at 11 42 41 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/1cecb140-5b3c-4ddd-b3d7-1a2ba11a04d3">
 
@@ -57,7 +60,20 @@ SELECT * from students;
 # Page load time
 I used Lighthouse Chrome DevTools to check application performace.
 
+Destop performance view
+
 <img width="1010" alt="Screenshot 2023-12-10 at 11 39 09 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/aac16256-f429-40fa-80fa-5e4f5b13401f">
 <img width="1012" alt="Screenshot 2023-12-10 at 11 39 38 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/2781db23-6ec8-4d2d-aee7-6f7f5bdcd6f8">
 
 
+**Mobile performance view**
+
+<img width="1008" alt="Screenshot 2023-12-11 at 1 23 12 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/10e3ddb1-30a4-4851-9a7a-a599d84e1946">
+
+<img width="995" alt="Screenshot 2023-12-11 at 1 23 24 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/10423cd9-322e-4dd9-b333-78bec26a0a97">
+
+**optimize the page load time**
+
+Used Lighthouse DevTools Extension to find the performance issues and fix them using their actionable suggestion.
+
+Used vercel to deploy this website to leverage its Vercel Edge Network compression that results in the better performance.
