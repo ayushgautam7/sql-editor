@@ -23,12 +23,14 @@ https://sql-editor-iota.vercel.app/
 
 # Features
 **Conditional RUN Button:** Activates only when a query is entered in the editor.
+<img width="683" alt="Screenshot 2023-12-11 at 1 05 36 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/5394febc-805f-4278-91f9-68aea5b071bb">
 
 **Different components:** Separate spaces for tables, editor, navigation bar and output.
 
 **Full Responsiveness:** Adapts seamlessly to all devices.
 
 **Predefined Queries:** Allows easy toggling between preset queries.
+<img width="685" alt="Screenshot 2023-12-11 at 1 05 47 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/0a861151-f996-4541-91a7-8099c6659476">
 
 **Custom Query Input:** Enables users to write their queries.
 
