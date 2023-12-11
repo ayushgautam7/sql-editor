@@ -1,5 +1,5 @@
 # SQL Editor
-**Overview:** Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.
+**Overview:** The aim of this project is to develop a web-based application that facilitates the execution of SQL queries entered by users and displays the results within the application interface. The application will provide a user-friendly space where individuals can input their SQL queries, submit them for execution, and visualize the query results seamlessly.
 
 # Description
 
@@ -9,7 +9,7 @@ The SQL Editor project is a responsive web application built on ReactJS, facilit
 
 **Navigation Bar:** Provides easy access to the application through its logo and "SQL Editor" label.
 
-**Table Space:** Features three predefined tables—Customers, Sales, and Students—for reference when crafting SQL queries.
+**Table Space:** Features three predefined tables Customers, Sales, and Students for reference when crafting SQL queries.
 
 **Editor Space:** Offers a platform for users to input SQL commands. It includes three preloaded queries linked to the respective tables for quick execution, alongside the option for users to run custom SQL queries.
 
