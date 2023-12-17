@@ -1,13 +1,31 @@
 import './App.css'
-import Dashboard from './pages/Dashboard'
-import Navbar from './components/Navbar'
+import AppRoutes from './Routes'
+import NavBar from './components/Navbar'
+import { BrowserRouter as Router } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ScrollToTop from './hooks/useScrollToTop';
 
 function App() {
-
   return (
-    <main className='bg-gray-950 relative h-screen w-full overflow-hidden'>
-      <Navbar />
-      <Dashboard />
+    <main className='w-full lg:h-screen md:h-screen overflow-hidden relative'>
+      <ToastContainer
+        position="bottom-left"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
+      <Router>
+        <ScrollToTop />
+        <NavBar />
+        <AppRoutes />
+      </Router>
     </main>
   )
 }
