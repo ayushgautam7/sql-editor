@@ -37,15 +37,21 @@ https://sql-editor-iota.vercel.app/
 
 **Full Responsiveness:** Ensures seamless usage across various devices.
 
-**Predefined Query Sets:** Offers a predefined set of queries for easy selection and execution, allowing users to switch between them.
-
 **Custom Query Input:** Allows users to write and execute their own SQL queries.
 
 **Monaco Editor:** Implements syntax highlighting for better query readability.
 
+**Predefined Query Sets:** Offers a predefined set of queries for easy selection and execution, allowing users to switch between them.
+
+<img width="683" alt="Screenshot 2023-12-19 at 1 16 00 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/4e27b975-04cb-46e1-a995-5da55c4a21d5">
+
+
 **Predefined Tables with Schemas:** Includes preset tables with their respective schemas for reference.
 
 **Table Popup on Schema Click:** Provides a popup displaying table details upon clicking the schemas.
+
+<img width="1457" alt="Screenshot 2023-12-19 at 1 12 26 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a7d5adcd-e7be-4cb1-b933-f3519d29fc21">
+
 
 **External Mock API Data Fetching:** Fetches data from an external mock API for testing purposes.
 
@@ -53,11 +59,14 @@ https://sql-editor-iota.vercel.app/
 
 **React Toast for Updates:** Utilizes React Toast for displaying updates or notifications.
 
+<img width="333" alt="Screenshot 2023-12-19 at 1 13 36 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a6eb4dbf-bb17-419a-86a3-d69c5966d762">
+
+
 **Reset Queries Button:** Offers a button to clear the editor area for a fresh start.
 
 **Hover Effects on Tables:** Tables change color when hovered over, enhancing user interaction.
 
-Ab**out Page:** Includes a dedicated section providing project details.
+**About Page:** Includes a dedicated section providing project details.
 
 # Idea
 
