@@ -28,45 +28,45 @@ The application is hosted on Vercel. Please find the link to it below.
 https://sql-editor-iota.vercel.app/
 
 # Features
-**Conditional RUN Button:** Activates only when a query is entered in the editor.
+* **Conditional RUN Button:** Activates only when a query is entered in the editor.
 <img width="771" alt="Screenshot 2023-12-18 at 2 34 38 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/52bc6ffa-ba05-4430-b603-e79ed0fe7347">
 <img width="769" alt="Screenshot 2023-12-18 at 2 34 23 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/6fbdad0b-6498-4984-993b-071881ced7ac">
 
 
-**Separate Sections:** Dedicated spaces for tables, predefined queries, editor, and output, ensuring clear organization.
+* **Separate Sections:** Dedicated spaces for tables, predefined queries, editor, and output, ensuring clear organization.
 
-**Full Responsiveness:** Ensures seamless usage across various devices.
+* **Full Responsiveness:** Ensures seamless usage across various devices.
 
-**Custom Query Input:** Allows users to write and execute their own SQL queries.
+* **Custom Query Input:** Allows users to write and execute their own SQL queries.
 
-**Monaco Editor:** Implements syntax highlighting for better query readability.
+* **Monaco Editor:** Implements syntax highlighting for better query readability.
 
-**Predefined Query Sets:** Offers a predefined set of queries for easy selection and execution, allowing users to switch between them.
+* **Predefined Query Sets:** Offers a predefined set of queries for easy selection and execution, allowing users to switch between them.
 
-<img width="683" alt="Screenshot 2023-12-19 at 1 16 00 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/4e27b975-04cb-46e1-a995-5da55c4a21d5">
-
-
-**Predefined Tables with Schemas:** Includes preset tables with their respective schemas for reference.
-
-**Table Popup on Schema Click:** Provides a popup displaying table details upon clicking the schemas.
-
-<img width="1457" alt="Screenshot 2023-12-19 at 1 12 26 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a7d5adcd-e7be-4cb1-b933-f3519d29fc21">
+* <img width="683" alt="Screenshot 2023-12-19 at 1 16 00 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/4e27b975-04cb-46e1-a995-5da55c4a21d5">
 
 
-**External Mock API Data Fetching:** Fetches data from an external mock API for testing purposes.
+* **Predefined Tables with Schemas:** Includes preset tables with their respective schemas for reference.
 
-**Routing Implementation:** Implements routing for smooth navigation within the application.
+* **Table Popup on Schema Click:** Provides a popup displaying table details upon clicking the schemas.
 
-**React Toast for Updates:** Utilizes React Toast for displaying updates or notifications.
-
-<img width="333" alt="Screenshot 2023-12-19 at 1 13 36 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a6eb4dbf-bb17-419a-86a3-d69c5966d762">
+* <img width="1457" alt="Screenshot 2023-12-19 at 1 12 26 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a7d5adcd-e7be-4cb1-b933-f3519d29fc21">
 
 
-**Reset Queries Button:** Offers a button to clear the editor area for a fresh start.
+* **External Mock API Data Fetching:** Fetches data from an external mock API for testing purposes.
 
-**Hover Effects on Tables:** Tables change color when hovered over, enhancing user interaction.
+* **Routing Implementation:** Implements routing for smooth navigation within the application.
 
-**About Page:** Includes a dedicated section providing project details.
+* **React Toast for Updates:** Utilizes React Toast for displaying updates or notifications.
+
+* <img width="333" alt="Screenshot 2023-12-19 at 1 13 36 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/a6eb4dbf-bb17-419a-86a3-d69c5966d762">
+
+
+* **Reset Queries Button:** Offers a button to clear the editor area for a fresh start.
+
+* **Hover Effects on Tables:** Tables change color when hovered over, enhancing user interaction.
+
+* **About Page:** Includes a dedicated section providing project details.
 
 # Idea
 
