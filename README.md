@@ -3,15 +3,18 @@
 
 # Description
 
-<img width="1462" alt="Screenshot 2023-12-10 at 11 42 41 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/1cecb140-5b3c-4ddd-b3d7-1a2ba11a04d3">
+<img width="1448" alt="Screenshot 2023-12-18 at 2 29 00 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/1f374116-922a-40f2-b86e-4820a03b2ceb">
 
-The SQL Editor project is a responsive web application built on ReactJS, facilitating the execution and visualization of SQL queries. The application is structured into four key components:
 
-**Navigation Bar:** Provides easy access to the application through its logo and "SQL Editor" label.
+The SQL Editor project is a responsive web application built on ReactJS, facilitating the execution and visualization of SQL queries. The application is structured into following key components:
 
-**Table Space:** Features three predefined tables Customers, Sales, and Students for reference when crafting SQL queries.
+**Navigation Bar:** Provides easy access to the application through its logo, "SQL Editor" label and about page.
 
-**Editor Space:** Offers a platform for users to input SQL commands. It includes three preloaded queries linked to the respective tables for quick execution, alongside the option for users to run custom SQL queries.
+**Table Schemas:** Here, three predefined table schemas Customers, Sales, and Students are available as references for SQL queries.
+
+**Available Queries:** A collection of predefined SQL queries that users can readily select and execute in the editor.
+
+**Editor Space:** This section allows users to write SQL queries with syntax highlighting. It features two buttons: a "Run" button to execute the queries and a "Reset" button for clearing the editor content.
 
 **Output Space:** Displays the results of executed queries, providing users with a clear and visual representation of the query outputs.
 
@@ -26,51 +29,77 @@ https://sql-editor-iota.vercel.app/
 
 # Features
 **Conditional RUN Button:** Activates only when a query is entered in the editor.
-<img width="683" alt="Screenshot 2023-12-11 at 1 05 36 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/5394febc-805f-4278-91f9-68aea5b071bb">
+<img width="771" alt="Screenshot 2023-12-18 at 2 34 38 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/52bc6ffa-ba05-4430-b603-e79ed0fe7347">
+<img width="769" alt="Screenshot 2023-12-18 at 2 34 23 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/6fbdad0b-6498-4984-993b-071881ced7ac">
 
-**Different components:** Separate spaces for tables, editor, navigation bar and output.
 
-**Full Responsiveness:** Adapts seamlessly to all devices.
+**Separate Sections:** Dedicated spaces for tables, predefined queries, editor, and output, ensuring clear organization.
 
-**Predefined Queries:** Allows easy toggling between preset queries.
-<img width="685" alt="Screenshot 2023-12-11 at 1 05 47 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/0a861151-f996-4541-91a7-8099c6659476">
+**Full Responsiveness:** Ensures seamless usage across various devices.
 
-**Custom Query Input:** Enables users to write their queries.
+**Predefined Query Sets:** Offers a predefined set of queries for easy selection and execution, allowing users to switch between them.
 
-**Predefined Tables:** Includes a set of predefined tables.
+**Custom Query Input:** Allows users to write and execute their own SQL queries.
 
-**Hover Effects:** Tables change color when hovered over for better interaction.
+**Monaco Editor:** Implements syntax highlighting for better query readability.
+
+**Predefined Tables with Schemas:** Includes preset tables with their respective schemas for reference.
+
+**Table Popup on Schema Click:** Provides a popup displaying table details upon clicking the schemas.
+
+**External Mock API Data Fetching:** Fetches data from an external mock API for testing purposes.
+
+**Routing Implementation:** Implements routing for smooth navigation within the application.
+
+**React Toast for Updates:** Utilizes React Toast for displaying updates or notifications.
+
+**Reset Queries Button:** Offers a button to clear the editor area for a fresh start.
+
+**Hover Effects on Tables:** Tables change color when hovered over, enhancing user interaction.
+
+Ab**out Page:** Includes a dedicated section providing project details.
 
 # Idea
 
 The inspiration for creating this SQL editor stemmed from my preparation for placements. During that time, I encountered various online code editors and compilers that had predefined values. The need to run queries based on those values sparked the idea to design this SQL editor frontend task.
 
 # Predefine queries
-SELECT * from customers;
 
-SELECT * from sales;
+SELECT * FROM students WHERE country = 'USA' AND age > 20;
 
-SELECT * from students;
+SELECT customer_id, first_name, last_name FROM customers WHERE age > 22;
+
+SELECT * FROM sales WHERE product_name = 'T-Shirt';
+
+SELECT customer_id, first_name FROM customers WHERE age > 22;
+
+SELECT * FROM sales WHERE product_name = 'Cola' AND quantity > 1;
+
+SELECT * FROM students WHERE major = 'Electrical Engineering';
 
 # Tech stack
 **ReactJS**
 
 **Tailwind CSS**
 
+**Monaco Editor**
+
 # Page load time
 I used Lighthouse Chrome DevTools to check application performace.
 
-Destop performance view
+**Destop performance view**
 
-<img width="1010" alt="Screenshot 2023-12-10 at 11 39 09 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/aac16256-f429-40fa-80fa-5e4f5b13401f">
-<img width="1012" alt="Screenshot 2023-12-10 at 11 39 38 PM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/2781db23-6ec8-4d2d-aee7-6f7f5bdcd6f8">
+<img width="993" alt="Screenshot 2023-12-19 at 12 01 39 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/1dee36d9-1a37-4806-b64e-9545869d86e8">
+
+<img width="1012" alt="Screenshot 2023-12-19 at 12 02 13 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/ddc025a7-5d1c-40a9-bce5-dfbc48f4ae45">
 
 
 **Mobile performance view**
 
-<img width="1008" alt="Screenshot 2023-12-11 at 1 23 12 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/10e3ddb1-30a4-4851-9a7a-a599d84e1946">
+<img width="1013" alt="Screenshot 2023-12-19 at 12 03 10 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/15464a78-b14d-4e62-a4e5-233bb8209e6d">
 
-<img width="995" alt="Screenshot 2023-12-11 at 1 23 24 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/10423cd9-322e-4dd9-b333-78bec26a0a97">
+<img width="994" alt="Screenshot 2023-12-19 at 12 03 22 AM" src="https://github.com/ayushgautam7/sql-editor/assets/81512036/b710cc0c-5c9f-49d5-ab30-f973fb2b9b79">
+
 
 **optimize the page load time**
 
